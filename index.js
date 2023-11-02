@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         false
     );
     demoIfc.addEventListener("click", () => {
-        viewer.loadModel("/model.ifc", true).then((model) => {
+        viewer.loadModel("Models/model.ifc", true).then((model) => {
             console.log(model);
             console.log(viewer);
         });
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         input.remove();
     });
     demoBmt.addEventListener("click", () => {
-        viewer.loadModel("/model.bmt", true).then((model) => {
+        viewer.loadModel("Models/model.bmt", true).then((model) => {
             console.log(model);
             console.log(viewer);
         });
